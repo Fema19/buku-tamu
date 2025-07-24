@@ -26,7 +26,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('admin/statistik*') ? 'active' : '' }}" href="#">
+                            <a class="nav-link {{ Request::is('admin/statistik*') ? 'active' : '' }}" href="{{ route('admin.statistik') }}">
                                 <i class="fas fa-chart-bar"></i>
                                 Statistik Tamu
                             </a>
